@@ -1,0 +1,61 @@
+-- The C compiler identification is GNU 11.4.0
+-- The CXX compiler identification is GNU 11.4.0
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Check for working C compiler: /usr/bin/cc - skipped
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Check for working CXX compiler: /usr/bin/c++ - skipped
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Found ament_cmake: 1.3.10 (/opt/ros/humble/share/ament_cmake/cmake)
+-- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+-- Found ament_lint_auto: 0.12.11 (/opt/ros/humble/share/ament_lint_auto/cmake)
+-- Added test 'flake8' to check Python code syntax and style conventions
+-- Added test 'lint_cmake' to check CMake code style
+-- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+-- Added test 'xmllint' to check XML markup files
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/jaguar/桌面/A10_Dual_Linux/build/dualarm
+-- Install configuration: ""
+-- Installing: /home/jaguar/桌面/A10_Dual_Linux/install/dualarm/share/dualarm/launch
+-- Installing: /home/jaguar/桌面/A10_Dual_Linux/install/dualarm/share/dualarm/launch/gazebo.launch
+-- Installing: /home/jaguar/桌面/A10_Dual_Linux/install/dualarm/share/dualarm/launch/display.launch.py
+-- Installing: /home/jaguar/桌面/A10_Dual_Linux/install/dualarm/share/dualarm/rviz
+-- Installing: /home/jaguar/桌面/A10_Dual_Linux/install/dualarm/share/dualarm/rviz/rviz_config.rviz
+-- Installing: /home/jaguar/桌面/A10_Dual_Linux/install/dualarm/share/dualarm/urdf
+-- Installing: /home/jaguar/桌面/A10_Dual_Linux/install/dualarm/share/dualarm/urdf/dualarm.urdf
+-- Installing: /home/jaguar/桌面/A10_Dual_Linux/install/dualarm/share/dualarm/meshes
+-- Installing: /home/jaguar/桌面/A10_Dual_Linux/install/dualarm/share/dualarm/meshes/Arm2_ee.STL
+-- Installing: /home/jaguar/桌面/A10_Dual_Linux/install/dualarm/share/dualarm/meshes/Arm2_link6.STL
+-- Installing: /home/jaguar/桌面/A10_Dual_Linux/install/dualarm/share/dualarm/meshes/Arm2_link2.STL
+-- Installing: /home/jaguar/桌面/A10_Dual_Linux/install/dualarm/share/dualarm/meshes/Arm2_link4.STL
+-- Installing: /home/jaguar/桌面/A10_Dual_Linux/install/dualarm/share/dualarm/meshes/Arm1_link4.STL
+-- Installing: /home/jaguar/桌面/A10_Dual_Linux/install/dualarm/share/dualarm/meshes/Arm2_link5.STL
+-- Installing: /home/jaguar/桌面/A10_Dual_Linux/install/dualarm/share/dualarm/meshes/Arm2_link3.STL
+-- Installing: /home/jaguar/桌面/A10_Dual_Linux/install/dualarm/share/dualarm/meshes/Arm1_link5.STL
+-- Installing: /home/jaguar/桌面/A10_Dual_Linux/install/dualarm/share/dualarm/meshes/Arm2_link1.STL
+-- Installing: /home/jaguar/桌面/A10_Dual_Linux/install/dualarm/share/dualarm/meshes/Arm1_link3.STL
+-- Installing: /home/jaguar/桌面/A10_Dual_Linux/install/dualarm/share/dualarm/meshes/Arm1_link1.STL
+-- Installing: /home/jaguar/桌面/A10_Dual_Linux/install/dualarm/share/dualarm/meshes/base_link.STL
+-- Installing: /home/jaguar/桌面/A10_Dual_Linux/install/dualarm/share/dualarm/meshes/Arm1_link2.STL
+-- Installing: /home/jaguar/桌面/A10_Dual_Linux/install/dualarm/share/dualarm/meshes/Arm1_link6.STL
+-- Installing: /home/jaguar/桌面/A10_Dual_Linux/install/dualarm/share/dualarm/meshes/Arm1_ee.STL
+-- Installing: /home/jaguar/桌面/A10_Dual_Linux/install/dualarm/share/ament_index/resource_index/package_run_dependencies/dualarm
+-- Installing: /home/jaguar/桌面/A10_Dual_Linux/install/dualarm/share/ament_index/resource_index/parent_prefix_path/dualarm
+-- Installing: /home/jaguar/桌面/A10_Dual_Linux/install/dualarm/share/dualarm/environment/ament_prefix_path.sh
+-- Installing: /home/jaguar/桌面/A10_Dual_Linux/install/dualarm/share/dualarm/environment/ament_prefix_path.dsv
+-- Installing: /home/jaguar/桌面/A10_Dual_Linux/install/dualarm/share/dualarm/environment/path.sh
+-- Installing: /home/jaguar/桌面/A10_Dual_Linux/install/dualarm/share/dualarm/environment/path.dsv
+-- Installing: /home/jaguar/桌面/A10_Dual_Linux/install/dualarm/share/dualarm/local_setup.bash
+-- Installing: /home/jaguar/桌面/A10_Dual_Linux/install/dualarm/share/dualarm/local_setup.sh
+-- Installing: /home/jaguar/桌面/A10_Dual_Linux/install/dualarm/share/dualarm/local_setup.zsh
+-- Installing: /home/jaguar/桌面/A10_Dual_Linux/install/dualarm/share/dualarm/local_setup.dsv
+-- Installing: /home/jaguar/桌面/A10_Dual_Linux/install/dualarm/share/dualarm/package.dsv
+-- Installing: /home/jaguar/桌面/A10_Dual_Linux/install/dualarm/share/ament_index/resource_index/packages/dualarm
+-- Installing: /home/jaguar/桌面/A10_Dual_Linux/install/dualarm/share/dualarm/cmake/dualarmConfig.cmake
+-- Installing: /home/jaguar/桌面/A10_Dual_Linux/install/dualarm/share/dualarm/cmake/dualarmConfig-version.cmake
+-- Installing: /home/jaguar/桌面/A10_Dual_Linux/install/dualarm/share/dualarm/package.xml

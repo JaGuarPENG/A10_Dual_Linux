@@ -1,0 +1,67 @@
+[0.046s] Invoking command in '/home/jaguar/桌面/A10_Dual_Linux/build/dualarm': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/jaguar/桌面/A10_Dual_Linux/src/dualarm -DCMAKE_INSTALL_PREFIX=/home/jaguar/桌面/A10_Dual_Linux/install/dualarm
+[0.531s] -- The C compiler identification is GNU 11.4.0
+[0.896s] -- The CXX compiler identification is GNU 11.4.0
+[0.927s] -- Detecting C compiler ABI info
+[1.231s] -- Detecting C compiler ABI info - done
+[1.246s] -- Check for working C compiler: /usr/bin/cc - skipped
+[1.247s] -- Detecting C compile features
+[1.248s] -- Detecting C compile features - done
+[1.255s] -- Detecting CXX compiler ABI info
+[1.529s] -- Detecting CXX compiler ABI info - done
+[1.542s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[1.544s] -- Detecting CXX compile features
+[1.544s] -- Detecting CXX compile features - done
+[1.585s] -- Found ament_cmake: 1.3.10 (/opt/ros/humble/share/ament_cmake/cmake)
+[1.931s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[2.148s] -- Found ament_lint_auto: 0.12.11 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[2.336s] -- Added test 'flake8' to check Python code syntax and style conventions
+[2.341s] -- Added test 'lint_cmake' to check CMake code style
+[2.344s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[2.360s] -- Added test 'xmllint' to check XML markup files
+[2.364s] -- Configuring done
+[2.380s] -- Generating done
+[2.382s] -- Build files have been written to: /home/jaguar/桌面/A10_Dual_Linux/build/dualarm
+[2.394s] Invoked command in '/home/jaguar/桌面/A10_Dual_Linux/build/dualarm' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/jaguar/桌面/A10_Dual_Linux/src/dualarm -DCMAKE_INSTALL_PREFIX=/home/jaguar/桌面/A10_Dual_Linux/install/dualarm
+[2.403s] Invoking command in '/home/jaguar/桌面/A10_Dual_Linux/build/dualarm': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/jaguar/桌面/A10_Dual_Linux/build/dualarm -- -j10 -l10
+[2.561s] Invoked command in '/home/jaguar/桌面/A10_Dual_Linux/build/dualarm' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/jaguar/桌面/A10_Dual_Linux/build/dualarm -- -j10 -l10
+[2.724s] Invoking command in '/home/jaguar/桌面/A10_Dual_Linux/build/dualarm': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/jaguar/桌面/A10_Dual_Linux/build/dualarm
+[2.766s] -- Install configuration: ""
+[2.767s] -- Installing: /home/jaguar/桌面/A10_Dual_Linux/install/dualarm/share/dualarm/launch
+[2.767s] -- Installing: /home/jaguar/桌面/A10_Dual_Linux/install/dualarm/share/dualarm/launch/gazebo.launch
+[2.768s] -- Installing: /home/jaguar/桌面/A10_Dual_Linux/install/dualarm/share/dualarm/launch/display.launch.py
+[2.769s] -- Installing: /home/jaguar/桌面/A10_Dual_Linux/install/dualarm/share/dualarm/rviz
+[2.769s] -- Installing: /home/jaguar/桌面/A10_Dual_Linux/install/dualarm/share/dualarm/rviz/rviz_config.rviz
+[2.770s] -- Installing: /home/jaguar/桌面/A10_Dual_Linux/install/dualarm/share/dualarm/urdf
+[2.771s] -- Installing: /home/jaguar/桌面/A10_Dual_Linux/install/dualarm/share/dualarm/urdf/dualarm.urdf
+[2.772s] -- Installing: /home/jaguar/桌面/A10_Dual_Linux/install/dualarm/share/dualarm/meshes
+[2.772s] -- Installing: /home/jaguar/桌面/A10_Dual_Linux/install/dualarm/share/dualarm/meshes/Arm2_ee.STL
+[2.806s] -- Installing: /home/jaguar/桌面/A10_Dual_Linux/install/dualarm/share/dualarm/meshes/Arm2_link6.STL
+[2.867s] -- Installing: /home/jaguar/桌面/A10_Dual_Linux/install/dualarm/share/dualarm/meshes/Arm2_link2.STL
+[3.901s] -- Installing: /home/jaguar/桌面/A10_Dual_Linux/install/dualarm/share/dualarm/meshes/Arm2_link4.STL
+[4.538s] -- Installing: /home/jaguar/桌面/A10_Dual_Linux/install/dualarm/share/dualarm/meshes/Arm1_link4.STL
+[5.173s] -- Installing: /home/jaguar/桌面/A10_Dual_Linux/install/dualarm/share/dualarm/meshes/Arm2_link5.STL
+[5.817s] -- Installing: /home/jaguar/桌面/A10_Dual_Linux/install/dualarm/share/dualarm/meshes/Arm2_link3.STL
+[6.489s] -- Installing: /home/jaguar/桌面/A10_Dual_Linux/install/dualarm/share/dualarm/meshes/Arm1_link5.STL
+[7.087s] -- Installing: /home/jaguar/桌面/A10_Dual_Linux/install/dualarm/share/dualarm/meshes/Arm2_link1.STL
+[7.582s] -- Installing: /home/jaguar/桌面/A10_Dual_Linux/install/dualarm/share/dualarm/meshes/Arm1_link3.STL
+[8.300s] -- Installing: /home/jaguar/桌面/A10_Dual_Linux/install/dualarm/share/dualarm/meshes/Arm1_link1.STL
+[8.717s] -- Installing: /home/jaguar/桌面/A10_Dual_Linux/install/dualarm/share/dualarm/meshes/base_link.STL
+[9.103s] -- Installing: /home/jaguar/桌面/A10_Dual_Linux/install/dualarm/share/dualarm/meshes/Arm1_link2.STL
+[10.163s] -- Installing: /home/jaguar/桌面/A10_Dual_Linux/install/dualarm/share/dualarm/meshes/Arm1_link6.STL
+[10.219s] -- Installing: /home/jaguar/桌面/A10_Dual_Linux/install/dualarm/share/dualarm/meshes/Arm1_ee.STL
+[10.285s] -- Installing: /home/jaguar/桌面/A10_Dual_Linux/install/dualarm/share/ament_index/resource_index/package_run_dependencies/dualarm
+[10.286s] -- Installing: /home/jaguar/桌面/A10_Dual_Linux/install/dualarm/share/ament_index/resource_index/parent_prefix_path/dualarm
+[10.287s] -- Installing: /home/jaguar/桌面/A10_Dual_Linux/install/dualarm/share/dualarm/environment/ament_prefix_path.sh
+[10.288s] -- Installing: /home/jaguar/桌面/A10_Dual_Linux/install/dualarm/share/dualarm/environment/ament_prefix_path.dsv
+[10.288s] -- Installing: /home/jaguar/桌面/A10_Dual_Linux/install/dualarm/share/dualarm/environment/path.sh
+[10.289s] -- Installing: /home/jaguar/桌面/A10_Dual_Linux/install/dualarm/share/dualarm/environment/path.dsv
+[10.290s] -- Installing: /home/jaguar/桌面/A10_Dual_Linux/install/dualarm/share/dualarm/local_setup.bash
+[10.290s] -- Installing: /home/jaguar/桌面/A10_Dual_Linux/install/dualarm/share/dualarm/local_setup.sh
+[10.291s] -- Installing: /home/jaguar/桌面/A10_Dual_Linux/install/dualarm/share/dualarm/local_setup.zsh
+[10.291s] -- Installing: /home/jaguar/桌面/A10_Dual_Linux/install/dualarm/share/dualarm/local_setup.dsv
+[10.292s] -- Installing: /home/jaguar/桌面/A10_Dual_Linux/install/dualarm/share/dualarm/package.dsv
+[10.293s] -- Installing: /home/jaguar/桌面/A10_Dual_Linux/install/dualarm/share/ament_index/resource_index/packages/dualarm
+[10.294s] -- Installing: /home/jaguar/桌面/A10_Dual_Linux/install/dualarm/share/dualarm/cmake/dualarmConfig.cmake
+[10.294s] -- Installing: /home/jaguar/桌面/A10_Dual_Linux/install/dualarm/share/dualarm/cmake/dualarmConfig-version.cmake
+[10.295s] -- Installing: /home/jaguar/桌面/A10_Dual_Linux/install/dualarm/share/dualarm/package.xml
+[10.302s] Invoked command in '/home/jaguar/桌面/A10_Dual_Linux/build/dualarm' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/jaguar/桌面/A10_Dual_Linux/build/dualarm

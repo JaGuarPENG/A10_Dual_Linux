@@ -1,0 +1,10 @@
+/home/jaguar/桌面/A10_Dual_Linux/build/a10_dual/CMakeFiles/uninstall.dir
+/home/jaguar/桌面/A10_Dual_Linux/build/a10_dual/CMakeFiles/a10_dual_uninstall.dir
+/home/jaguar/桌面/A10_Dual_Linux/build/a10_dual/CMakeFiles/a10_dual.dir
+/home/jaguar/桌面/A10_Dual_Linux/build/a10_dual/CMakeFiles/test.dir
+/home/jaguar/桌面/A10_Dual_Linux/build/a10_dual/CMakeFiles/edit_cache.dir
+/home/jaguar/桌面/A10_Dual_Linux/build/a10_dual/CMakeFiles/rebuild_cache.dir
+/home/jaguar/桌面/A10_Dual_Linux/build/a10_dual/CMakeFiles/list_install_components.dir
+/home/jaguar/桌面/A10_Dual_Linux/build/a10_dual/CMakeFiles/install.dir
+/home/jaguar/桌面/A10_Dual_Linux/build/a10_dual/CMakeFiles/install/local.dir
+/home/jaguar/桌面/A10_Dual_Linux/build/a10_dual/CMakeFiles/install/strip.dir

@@ -1,0 +1,345 @@
+[0.000000] (-) TimerEvent: {}
+[0.000394] (a10_dual) JobQueued: {'identifier': 'a10_dual', 'dependencies': OrderedDict()}
+[0.000485] (dualarm) JobQueued: {'identifier': 'dualarm', 'dependencies': OrderedDict()}
+[0.001749] (a10_dual) JobStarted: {'identifier': 'a10_dual'}
+[0.015726] (dualarm) JobStarted: {'identifier': 'dualarm'}
+[0.026374] (a10_dual) JobProgress: {'identifier': 'a10_dual', 'progress': 'cmake'}
+[0.027012] (a10_dual) Command: {'cmd': ['/usr/bin/cmake', '/home/jaguar/桌面/A10_Dual_Linux/src/a10_dual', '-DCMAKE_INSTALL_PREFIX=/home/jaguar/桌面/A10_Dual_Linux/install/a10_dual'], 'cwd': '/home/jaguar/桌面/A10_Dual_Linux/build/a10_dual', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'zh_CN:en'), ('USER', 'jaguar'), ('LC_TIME', 'zh_CN.UTF-8'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/jaguar'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'zh_CN.UTF-8'), ('DBUS_STARTER_BUS_TYPE', 'session'), ('SYSTEMD_EXEC_PID', '1362'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus,guid=e3e3b9bb686d9139d27fb30566eb8c10'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('ROS_DISTRO', 'humble'), ('GTK_IM_MODULE', 'fcitx'), ('LOGNAME', 'jaguar'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'jaguar'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/JaGuar-VM:@/tmp/.ICE-unix/1362,unix/JaGuar-VM:/tmp/.ICE-unix/1362'), ('PAPERSIZE', 'a4'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'zh_CN.UTF-8'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/8babdbf1_168a_4734_a22f_714abd06f880'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'zh_CN.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'zh_CN.UTF-8'), ('XMODIFIERS', '@im=fcitx'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.AU6YT2'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.625'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'zh_CN.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'zh_CN.UTF-8'), ('LC_IDENTIFICATION', 'zh_CN.UTF-8'), ('QT_IM_MODULE', 'fcitx'), ('PWD', '/home/jaguar/桌面/A10_Dual_Linux/build/a10_dual'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('CLUTTER_IM_MODULE', 'fcitx'), ('DBUS_STARTER_ADDRESS', 'unix:path=/run/user/1000/bus,guid=e3e3b9bb686d9139d27fb30566eb8c10'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'zh_CN.UTF-8'), ('LC_PAPER', 'zh_CN.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[0.047204] (dualarm) JobProgress: {'identifier': 'dualarm', 'progress': 'cmake'}
+[0.054765] (dualarm) Command: {'cmd': ['/usr/bin/cmake', '/home/jaguar/桌面/A10_Dual_Linux/src/dualarm', '-DCMAKE_INSTALL_PREFIX=/home/jaguar/桌面/A10_Dual_Linux/install/dualarm'], 'cwd': '/home/jaguar/桌面/A10_Dual_Linux/build/dualarm', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'zh_CN:en'), ('USER', 'jaguar'), ('LC_TIME', 'zh_CN.UTF-8'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/jaguar'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'zh_CN.UTF-8'), ('DBUS_STARTER_BUS_TYPE', 'session'), ('SYSTEMD_EXEC_PID', '1362'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus,guid=e3e3b9bb686d9139d27fb30566eb8c10'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('ROS_DISTRO', 'humble'), ('GTK_IM_MODULE', 'fcitx'), ('LOGNAME', 'jaguar'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'jaguar'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/JaGuar-VM:@/tmp/.ICE-unix/1362,unix/JaGuar-VM:/tmp/.ICE-unix/1362'), ('PAPERSIZE', 'a4'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'zh_CN.UTF-8'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/8babdbf1_168a_4734_a22f_714abd06f880'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'zh_CN.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'zh_CN.UTF-8'), ('XMODIFIERS', '@im=fcitx'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.AU6YT2'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.625'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'zh_CN.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'zh_CN.UTF-8'), ('LC_IDENTIFICATION', 'zh_CN.UTF-8'), ('QT_IM_MODULE', 'fcitx'), ('PWD', '/home/jaguar/桌面/A10_Dual_Linux/build/dualarm'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('CLUTTER_IM_MODULE', 'fcitx'), ('DBUS_STARTER_ADDRESS', 'unix:path=/run/user/1000/bus,guid=e3e3b9bb686d9139d27fb30566eb8c10'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'zh_CN.UTF-8'), ('LC_PAPER', 'zh_CN.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[0.099584] (-) TimerEvent: {}
+[0.200196] (-) TimerEvent: {}
+[0.300764] (-) TimerEvent: {}
+[0.401495] (-) TimerEvent: {}
+[0.502314] (-) TimerEvent: {}
+[0.545868] (dualarm) StdoutLine: {'line': b'-- The C compiler identification is GNU 11.4.0\n'}
+[0.546701] (a10_dual) StdoutLine: {'line': b'-- The C compiler identification is GNU 11.4.0\n'}
+[0.602404] (-) TimerEvent: {}
+[0.703000] (-) TimerEvent: {}
+[0.803726] (-) TimerEvent: {}
+[0.904249] (-) TimerEvent: {}
+[0.910563] (a10_dual) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 11.4.0\n'}
+[0.911205] (dualarm) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 11.4.0\n'}
+[0.941994] (a10_dual) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[0.942385] (dualarm) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[1.004487] (-) TimerEvent: {}
+[1.105217] (-) TimerEvent: {}
+[1.205782] (-) TimerEvent: {}
+[1.244677] (dualarm) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[1.247715] (a10_dual) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[1.260311] (a10_dual) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[1.261604] (dualarm) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[1.262034] (a10_dual) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[1.262566] (dualarm) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[1.263058] (dualarm) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[1.263395] (a10_dual) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[1.270539] (dualarm) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[1.270813] (a10_dual) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[1.306178] (-) TimerEvent: {}
+[1.406751] (-) TimerEvent: {}
+[1.507420] (-) TimerEvent: {}
+[1.543494] (a10_dual) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[1.544231] (dualarm) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[1.556761] (dualarm) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[1.558179] (a10_dual) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[1.558865] (dualarm) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[1.559601] (dualarm) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[1.559852] (a10_dual) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[1.560372] (a10_dual) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[1.600458] (dualarm) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.10 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[1.600732] (a10_dual) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.10 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[1.607669] (-) TimerEvent: {}
+[1.708276] (-) TimerEvent: {}
+[1.808859] (-) TimerEvent: {}
+[1.909485] (-) TimerEvent: {}
+[1.944417] (a10_dual) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter \n'}
+[1.946682] (dualarm) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter \n'}
+[2.009769] (-) TimerEvent: {}
+[2.110347] (-) TimerEvent: {}
+[2.163850] (dualarm) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.12.11 (/opt/ros/humble/share/ament_lint_auto/cmake)\n'}
+[2.166899] (a10_dual) StdoutLine: {'line': b'-- Found rclcpp: 16.0.10 (/opt/ros/humble/share/rclcpp/cmake)\n'}
+[2.210675] (-) TimerEvent: {}
+[2.311194] (-) TimerEvent: {}
+[2.331966] (a10_dual) StdoutLine: {'line': b'-- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)\n'}
+[2.350888] (dualarm) StdoutLine: {'line': b"-- Added test 'flake8' to check Python code syntax and style conventions\n"}
+[2.352740] (a10_dual) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[2.356686] (dualarm) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[2.359358] (dualarm) StdoutLine: {'line': b"-- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257\n"}
+[2.375182] (dualarm) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[2.379267] (a10_dual) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)\n'}
+[2.379956] (dualarm) StdoutLine: {'line': b'-- Configuring done\n'}
+[2.395716] (dualarm) StdoutLine: {'line': b'-- Generating done\n'}
+[2.398021] (dualarm) StdoutLine: {'line': b'-- Build files have been written to: /home/jaguar/\xe6\xa1\x8c\xe9\x9d\xa2/A10_Dual_Linux/build/dualarm\n'}
+[2.409062] (dualarm) CommandEnded: {'returncode': 0}
+[2.410417] (dualarm) JobProgress: {'identifier': 'dualarm', 'progress': 'build'}
+[2.417762] (dualarm) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/jaguar/桌面/A10_Dual_Linux/build/dualarm', '--', '-j10', '-l10'], 'cwd': '/home/jaguar/桌面/A10_Dual_Linux/build/dualarm', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'zh_CN:en'), ('USER', 'jaguar'), ('LC_TIME', 'zh_CN.UTF-8'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/jaguar'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'zh_CN.UTF-8'), ('DBUS_STARTER_BUS_TYPE', 'session'), ('SYSTEMD_EXEC_PID', '1362'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus,guid=e3e3b9bb686d9139d27fb30566eb8c10'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('ROS_DISTRO', 'humble'), ('GTK_IM_MODULE', 'fcitx'), ('LOGNAME', 'jaguar'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'jaguar'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/JaGuar-VM:@/tmp/.ICE-unix/1362,unix/JaGuar-VM:/tmp/.ICE-unix/1362'), ('PAPERSIZE', 'a4'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'zh_CN.UTF-8'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/8babdbf1_168a_4734_a22f_714abd06f880'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'zh_CN.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'zh_CN.UTF-8'), ('XMODIFIERS', '@im=fcitx'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.AU6YT2'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.625'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'zh_CN.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'zh_CN.UTF-8'), ('LC_IDENTIFICATION', 'zh_CN.UTF-8'), ('QT_IM_MODULE', 'fcitx'), ('PWD', '/home/jaguar/桌面/A10_Dual_Linux/build/dualarm'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('CLUTTER_IM_MODULE', 'fcitx'), ('DBUS_STARTER_ADDRESS', 'unix:path=/run/user/1000/bus,guid=e3e3b9bb686d9139d27fb30566eb8c10'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'zh_CN.UTF-8'), ('LC_PAPER', 'zh_CN.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[2.418596] (-) TimerEvent: {}
+[2.429004] (a10_dual) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[2.496566] (a10_dual) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[2.518865] (-) TimerEvent: {}
+[2.574909] (dualarm) CommandEnded: {'returncode': 0}
+[2.619245] (-) TimerEvent: {}
+[2.648473] (a10_dual) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)\n'}
+[2.667310] (a10_dual) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 6.2.7 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)\n'}
+[2.698733] (dualarm) JobProgress: {'identifier': 'dualarm', 'progress': 'install'}
+[2.719547] (-) TimerEvent: {}
+[2.738875] (dualarm) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/jaguar/桌面/A10_Dual_Linux/build/dualarm'], 'cwd': '/home/jaguar/桌面/A10_Dual_Linux/build/dualarm', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'zh_CN:en'), ('USER', 'jaguar'), ('LC_TIME', 'zh_CN.UTF-8'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/jaguar'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'zh_CN.UTF-8'), ('DBUS_STARTER_BUS_TYPE', 'session'), ('SYSTEMD_EXEC_PID', '1362'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus,guid=e3e3b9bb686d9139d27fb30566eb8c10'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('ROS_DISTRO', 'humble'), ('GTK_IM_MODULE', 'fcitx'), ('LOGNAME', 'jaguar'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'jaguar'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/JaGuar-VM:@/tmp/.ICE-unix/1362,unix/JaGuar-VM:/tmp/.ICE-unix/1362'), ('PAPERSIZE', 'a4'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'zh_CN.UTF-8'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/8babdbf1_168a_4734_a22f_714abd06f880'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'zh_CN.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'zh_CN.UTF-8'), ('XMODIFIERS', '@im=fcitx'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.AU6YT2'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.625'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'zh_CN.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'zh_CN.UTF-8'), ('LC_IDENTIFICATION', 'zh_CN.UTF-8'), ('QT_IM_MODULE', 'fcitx'), ('PWD', '/home/jaguar/桌面/A10_Dual_Linux/build/dualarm'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('CLUTTER_IM_MODULE', 'fcitx'), ('DBUS_STARTER_ADDRESS', 'unix:path=/run/user/1000/bus,guid=e3e3b9bb686d9139d27fb30566eb8c10'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'zh_CN.UTF-8'), ('LC_PAPER', 'zh_CN.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[2.781605] (dualarm) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[2.782232] (dualarm) StdoutLine: {'line': b'-- Installing: /home/jaguar/\xe6\xa1\x8c\xe9\x9d\xa2/A10_Dual_Linux/install/dualarm/share/dualarm/launch\n'}
+[2.782944] (dualarm) StdoutLine: {'line': b'-- Installing: /home/jaguar/\xe6\xa1\x8c\xe9\x9d\xa2/A10_Dual_Linux/install/dualarm/share/dualarm/launch/gazebo.launch\n'}
+[2.783844] (dualarm) StdoutLine: {'line': b'-- Installing: /home/jaguar/\xe6\xa1\x8c\xe9\x9d\xa2/A10_Dual_Linux/install/dualarm/share/dualarm/launch/display.launch.py\n'}
+[2.784198] (dualarm) StdoutLine: {'line': b'-- Installing: /home/jaguar/\xe6\xa1\x8c\xe9\x9d\xa2/A10_Dual_Linux/install/dualarm/share/dualarm/rviz\n'}
+[2.784747] (dualarm) StdoutLine: {'line': b'-- Installing: /home/jaguar/\xe6\xa1\x8c\xe9\x9d\xa2/A10_Dual_Linux/install/dualarm/share/dualarm/rviz/rviz_config.rviz\n'}
+[2.786043] (dualarm) StdoutLine: {'line': b'-- Installing: /home/jaguar/\xe6\xa1\x8c\xe9\x9d\xa2/A10_Dual_Linux/install/dualarm/share/dualarm/urdf\n'}
+[2.786882] (dualarm) StdoutLine: {'line': b'-- Installing: /home/jaguar/\xe6\xa1\x8c\xe9\x9d\xa2/A10_Dual_Linux/install/dualarm/share/dualarm/urdf/dualarm.urdf\n'}
+[2.787415] (dualarm) StdoutLine: {'line': b'-- Installing: /home/jaguar/\xe6\xa1\x8c\xe9\x9d\xa2/A10_Dual_Linux/install/dualarm/share/dualarm/meshes\n'}
+[2.787847] (dualarm) StdoutLine: {'line': b'-- Installing: /home/jaguar/\xe6\xa1\x8c\xe9\x9d\xa2/A10_Dual_Linux/install/dualarm/share/dualarm/meshes/Arm2_ee.STL\n'}
+[2.819825] (-) TimerEvent: {}
+[2.821579] (dualarm) StdoutLine: {'line': b'-- Installing: /home/jaguar/\xe6\xa1\x8c\xe9\x9d\xa2/A10_Dual_Linux/install/dualarm/share/dualarm/meshes/Arm2_link6.STL\n'}
+[2.882378] (dualarm) StdoutLine: {'line': b'-- Installing: /home/jaguar/\xe6\xa1\x8c\xe9\x9d\xa2/A10_Dual_Linux/install/dualarm/share/dualarm/meshes/Arm2_link2.STL\n'}
+[2.920221] (-) TimerEvent: {}
+[3.015531] (a10_dual) StdoutLine: {'line': b'-- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  \n'}
+[3.020554] (-) TimerEvent: {}
+[3.073322] (a10_dual) StdoutLine: {'line': b'-- Found FastRTPS: /opt/ros/humble/include  \n'}
+[3.120847] (-) TimerEvent: {}
+[3.140795] (a10_dual) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[3.170655] (a10_dual) StdoutLine: {'line': b'-- Looking for pthread.h\n'}
+[3.221267] (-) TimerEvent: {}
+[3.321769] (-) TimerEvent: {}
+[3.412532] (a10_dual) StdoutLine: {'line': b'-- Looking for pthread.h - found\n'}
+[3.415459] (a10_dual) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD\n'}
+[3.421963] (-) TimerEvent: {}
+[3.522709] (-) TimerEvent: {}
+[3.623250] (-) TimerEvent: {}
+[3.669832] (a10_dual) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success\n'}
+[3.674236] (a10_dual) StdoutLine: {'line': b'-- Found Threads: TRUE  \n'}
+[3.723494] (-) TimerEvent: {}
+[3.823994] (-) TimerEvent: {}
+[3.827752] (a10_dual) StdoutLine: {'line': b'-- Found sensor_msgs: 4.2.4 (/opt/ros/humble/share/sensor_msgs/cmake)\n'}
+[3.916051] (dualarm) StdoutLine: {'line': b'-- Installing: /home/jaguar/\xe6\xa1\x8c\xe9\x9d\xa2/A10_Dual_Linux/install/dualarm/share/dualarm/meshes/Arm2_link4.STL\n'}
+[3.924265] (-) TimerEvent: {}
+[3.938815] (a10_dual) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.12.11 (/opt/ros/humble/share/ament_lint_auto/cmake)\n'}
+[4.024579] (-) TimerEvent: {}
+[4.092811] (a10_dual) StdoutLine: {'line': b"-- Added test 'cppcheck' to perform static code analysis on C / C++ code\n"}
+[4.093052] (a10_dual) StdoutLine: {'line': b'-- Configured cppcheck include dirs: \n'}
+[4.093330] (a10_dual) StdoutLine: {'line': b'-- Configured cppcheck exclude dirs and/or files: \n'}
+[4.095775] (a10_dual) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[4.101417] (a10_dual) StdoutLine: {'line': b"-- Added test 'uncrustify' to check C / C++ code style\n"}
+[4.101605] (a10_dual) StdoutLine: {'line': b'-- Configured uncrustify additional arguments: \n'}
+[4.102651] (a10_dual) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[4.105513] (a10_dual) StdoutLine: {'line': b'-- Configuring done\n'}
+[4.124815] (-) TimerEvent: {}
+[4.145635] (a10_dual) StdoutLine: {'line': b'-- Generating done\n'}
+[4.149078] (a10_dual) StdoutLine: {'line': b'-- Build files have been written to: /home/jaguar/\xe6\xa1\x8c\xe9\x9d\xa2/A10_Dual_Linux/build/a10_dual\n'}
+[4.177549] (a10_dual) CommandEnded: {'returncode': 0}
+[4.194218] (a10_dual) JobProgress: {'identifier': 'a10_dual', 'progress': 'build'}
+[4.194319] (a10_dual) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/jaguar/桌面/A10_Dual_Linux/build/a10_dual', '--', '-j10', '-l10'], 'cwd': '/home/jaguar/桌面/A10_Dual_Linux/build/a10_dual', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'zh_CN:en'), ('USER', 'jaguar'), ('LC_TIME', 'zh_CN.UTF-8'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/jaguar'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'zh_CN.UTF-8'), ('DBUS_STARTER_BUS_TYPE', 'session'), ('SYSTEMD_EXEC_PID', '1362'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus,guid=e3e3b9bb686d9139d27fb30566eb8c10'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('ROS_DISTRO', 'humble'), ('GTK_IM_MODULE', 'fcitx'), ('LOGNAME', 'jaguar'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'jaguar'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/JaGuar-VM:@/tmp/.ICE-unix/1362,unix/JaGuar-VM:/tmp/.ICE-unix/1362'), ('PAPERSIZE', 'a4'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'zh_CN.UTF-8'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/8babdbf1_168a_4734_a22f_714abd06f880'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'zh_CN.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'zh_CN.UTF-8'), ('XMODIFIERS', '@im=fcitx'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.AU6YT2'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.625'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'zh_CN.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'zh_CN.UTF-8'), ('LC_IDENTIFICATION', 'zh_CN.UTF-8'), ('QT_IM_MODULE', 'fcitx'), ('PWD', '/home/jaguar/桌面/A10_Dual_Linux/build/a10_dual'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('CLUTTER_IM_MODULE', 'fcitx'), ('DBUS_STARTER_ADDRESS', 'unix:path=/run/user/1000/bus,guid=e3e3b9bb686d9139d27fb30566eb8c10'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'zh_CN.UTF-8'), ('LC_PAPER', 'zh_CN.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[4.225217] (-) TimerEvent: {}
+[4.325762] (-) TimerEvent: {}
+[4.369297] (a10_dual) StdoutLine: {'line': b'[ 20%] \x1b[32mBuilding CXX object CMakeFiles/a10_dual.dir/src/main.cpp.o\x1b[0m\n'}
+[4.371454] (a10_dual) StdoutLine: {'line': b'[ 40%] \x1b[32mBuilding CXX object CMakeFiles/a10_dual.dir/src/aris_node.cpp.o\x1b[0m\n'}
+[4.372383] (a10_dual) StdoutLine: {'line': b'[ 60%] \x1b[32mBuilding CXX object CMakeFiles/a10_dual.dir/src/robot.cpp.o\x1b[0m\n'}
+[4.373614] (a10_dual) StdoutLine: {'line': b'[ 80%] \x1b[32mBuilding CXX object CMakeFiles/a10_dual.dir/src/plan.cpp.o\x1b[0m\n'}
+[4.426127] (-) TimerEvent: {}
+[4.526733] (-) TimerEvent: {}
+[4.553314] (dualarm) StdoutLine: {'line': b'-- Installing: /home/jaguar/\xe6\xa1\x8c\xe9\x9d\xa2/A10_Dual_Linux/install/dualarm/share/dualarm/meshes/Arm1_link4.STL\n'}
+[4.626982] (-) TimerEvent: {}
+[4.727637] (-) TimerEvent: {}
+[4.828250] (-) TimerEvent: {}
+[4.928932] (-) TimerEvent: {}
+[5.029554] (-) TimerEvent: {}
+[5.130111] (-) TimerEvent: {}
+[5.188611] (dualarm) StdoutLine: {'line': b'-- Installing: /home/jaguar/\xe6\xa1\x8c\xe9\x9d\xa2/A10_Dual_Linux/install/dualarm/share/dualarm/meshes/Arm2_link5.STL\n'}
+[5.230385] (-) TimerEvent: {}
+[5.330951] (-) TimerEvent: {}
+[5.431545] (-) TimerEvent: {}
+[5.532224] (-) TimerEvent: {}
+[5.632812] (-) TimerEvent: {}
+[5.733538] (-) TimerEvent: {}
+[5.832253] (dualarm) StdoutLine: {'line': b'-- Installing: /home/jaguar/\xe6\xa1\x8c\xe9\x9d\xa2/A10_Dual_Linux/install/dualarm/share/dualarm/meshes/Arm2_link3.STL\n'}
+[5.833741] (-) TimerEvent: {}
+[5.934312] (-) TimerEvent: {}
+[6.034942] (-) TimerEvent: {}
+[6.135597] (-) TimerEvent: {}
+[6.236237] (-) TimerEvent: {}
+[6.336864] (-) TimerEvent: {}
+[6.437650] (-) TimerEvent: {}
+[6.504725] (dualarm) StdoutLine: {'line': b'-- Installing: /home/jaguar/\xe6\xa1\x8c\xe9\x9d\xa2/A10_Dual_Linux/install/dualarm/share/dualarm/meshes/Arm1_link5.STL\n'}
+[6.537924] (-) TimerEvent: {}
+[6.638598] (-) TimerEvent: {}
+[6.739155] (-) TimerEvent: {}
+[6.839850] (-) TimerEvent: {}
+[6.940580] (-) TimerEvent: {}
+[7.041238] (-) TimerEvent: {}
+[7.102475] (dualarm) StdoutLine: {'line': b'-- Installing: /home/jaguar/\xe6\xa1\x8c\xe9\x9d\xa2/A10_Dual_Linux/install/dualarm/share/dualarm/meshes/Arm2_link1.STL\n'}
+[7.141531] (-) TimerEvent: {}
+[7.242154] (-) TimerEvent: {}
+[7.342741] (-) TimerEvent: {}
+[7.443287] (-) TimerEvent: {}
+[7.543837] (-) TimerEvent: {}
+[7.596717] (dualarm) StdoutLine: {'line': b'-- Installing: /home/jaguar/\xe6\xa1\x8c\xe9\x9d\xa2/A10_Dual_Linux/install/dualarm/share/dualarm/meshes/Arm1_link3.STL\n'}
+[7.644234] (-) TimerEvent: {}
+[7.744878] (-) TimerEvent: {}
+[7.846049] (-) TimerEvent: {}
+[7.947237] (-) TimerEvent: {}
+[8.048011] (-) TimerEvent: {}
+[8.148720] (-) TimerEvent: {}
+[8.249348] (-) TimerEvent: {}
+[8.315972] (dualarm) StdoutLine: {'line': b'-- Installing: /home/jaguar/\xe6\xa1\x8c\xe9\x9d\xa2/A10_Dual_Linux/install/dualarm/share/dualarm/meshes/Arm1_link1.STL\n'}
+[8.349608] (-) TimerEvent: {}
+[8.450243] (-) TimerEvent: {}
+[8.550913] (-) TimerEvent: {}
+[8.651660] (-) TimerEvent: {}
+[8.732898] (dualarm) StdoutLine: {'line': b'-- Installing: /home/jaguar/\xe6\xa1\x8c\xe9\x9d\xa2/A10_Dual_Linux/install/dualarm/share/dualarm/meshes/base_link.STL\n'}
+[8.752053] (-) TimerEvent: {}
+[8.852777] (-) TimerEvent: {}
+[8.953374] (-) TimerEvent: {}
+[9.053968] (-) TimerEvent: {}
+[9.118554] (dualarm) StdoutLine: {'line': b'-- Installing: /home/jaguar/\xe6\xa1\x8c\xe9\x9d\xa2/A10_Dual_Linux/install/dualarm/share/dualarm/meshes/Arm1_link2.STL\n'}
+[9.154227] (-) TimerEvent: {}
+[9.254859] (-) TimerEvent: {}
+[9.355486] (-) TimerEvent: {}
+[9.456210] (-) TimerEvent: {}
+[9.556789] (-) TimerEvent: {}
+[9.657423] (-) TimerEvent: {}
+[9.758024] (-) TimerEvent: {}
+[9.858677] (-) TimerEvent: {}
+[9.959281] (-) TimerEvent: {}
+[10.060027] (-) TimerEvent: {}
+[10.160802] (-) TimerEvent: {}
+[10.177969] (dualarm) StdoutLine: {'line': b'-- Installing: /home/jaguar/\xe6\xa1\x8c\xe9\x9d\xa2/A10_Dual_Linux/install/dualarm/share/dualarm/meshes/Arm1_link6.STL\n'}
+[10.234669] (dualarm) StdoutLine: {'line': b'-- Installing: /home/jaguar/\xe6\xa1\x8c\xe9\x9d\xa2/A10_Dual_Linux/install/dualarm/share/dualarm/meshes/Arm1_ee.STL\n'}
+[10.261175] (-) TimerEvent: {}
+[10.299811] (dualarm) StdoutLine: {'line': b'-- Installing: /home/jaguar/\xe6\xa1\x8c\xe9\x9d\xa2/A10_Dual_Linux/install/dualarm/share/ament_index/resource_index/package_run_dependencies/dualarm\n'}
+[10.301292] (dualarm) StdoutLine: {'line': b'-- Installing: /home/jaguar/\xe6\xa1\x8c\xe9\x9d\xa2/A10_Dual_Linux/install/dualarm/share/ament_index/resource_index/parent_prefix_path/dualarm\n'}
+[10.302893] (dualarm) StdoutLine: {'line': b'-- Installing: /home/jaguar/\xe6\xa1\x8c\xe9\x9d\xa2/A10_Dual_Linux/install/dualarm/share/dualarm/environment/ament_prefix_path.sh\n'}
+[10.303540] (dualarm) StdoutLine: {'line': b'-- Installing: /home/jaguar/\xe6\xa1\x8c\xe9\x9d\xa2/A10_Dual_Linux/install/dualarm/share/dualarm/environment/ament_prefix_path.dsv\n'}
+[10.303955] (dualarm) StdoutLine: {'line': b'-- Installing: /home/jaguar/\xe6\xa1\x8c\xe9\x9d\xa2/A10_Dual_Linux/install/dualarm/share/dualarm/environment/path.sh\n'}
+[10.304551] (dualarm) StdoutLine: {'line': b'-- Installing: /home/jaguar/\xe6\xa1\x8c\xe9\x9d\xa2/A10_Dual_Linux/install/dualarm/share/dualarm/environment/path.dsv\n'}
+[10.305186] (dualarm) StdoutLine: {'line': b'-- Installing: /home/jaguar/\xe6\xa1\x8c\xe9\x9d\xa2/A10_Dual_Linux/install/dualarm/share/dualarm/local_setup.bash\n'}
+[10.305713] (dualarm) StdoutLine: {'line': b'-- Installing: /home/jaguar/\xe6\xa1\x8c\xe9\x9d\xa2/A10_Dual_Linux/install/dualarm/share/dualarm/local_setup.sh\n'}
+[10.306254] (dualarm) StdoutLine: {'line': b'-- Installing: /home/jaguar/\xe6\xa1\x8c\xe9\x9d\xa2/A10_Dual_Linux/install/dualarm/share/dualarm/local_setup.zsh\n'}
+[10.306832] (dualarm) StdoutLine: {'line': b'-- Installing: /home/jaguar/\xe6\xa1\x8c\xe9\x9d\xa2/A10_Dual_Linux/install/dualarm/share/dualarm/local_setup.dsv\n'}
+[10.307878] (dualarm) StdoutLine: {'line': b'-- Installing: /home/jaguar/\xe6\xa1\x8c\xe9\x9d\xa2/A10_Dual_Linux/install/dualarm/share/dualarm/package.dsv\n'}
+[10.308571] (dualarm) StdoutLine: {'line': b'-- Installing: /home/jaguar/\xe6\xa1\x8c\xe9\x9d\xa2/A10_Dual_Linux/install/dualarm/share/ament_index/resource_index/packages/dualarm\n'}
+[10.309476] (dualarm) StdoutLine: {'line': b'-- Installing: /home/jaguar/\xe6\xa1\x8c\xe9\x9d\xa2/A10_Dual_Linux/install/dualarm/share/dualarm/cmake/dualarmConfig.cmake\n'}
+[10.310107] (dualarm) StdoutLine: {'line': b'-- Installing: /home/jaguar/\xe6\xa1\x8c\xe9\x9d\xa2/A10_Dual_Linux/install/dualarm/share/dualarm/cmake/dualarmConfig-version.cmake\n'}
+[10.310850] (dualarm) StdoutLine: {'line': b'-- Installing: /home/jaguar/\xe6\xa1\x8c\xe9\x9d\xa2/A10_Dual_Linux/install/dualarm/share/dualarm/package.xml\n'}
+[10.317428] (dualarm) CommandEnded: {'returncode': 0}
+[10.361495] (-) TimerEvent: {}
+[10.462230] (-) TimerEvent: {}
+[10.470697] (dualarm) JobEnded: {'identifier': 'dualarm', 'rc': 0}
+[10.562421] (-) TimerEvent: {}
+[10.663013] (-) TimerEvent: {}
+[10.764339] (-) TimerEvent: {}
+[10.864921] (-) TimerEvent: {}
+[10.965564] (-) TimerEvent: {}
+[11.066203] (-) TimerEvent: {}
+[11.166772] (-) TimerEvent: {}
+[11.267652] (-) TimerEvent: {}
+[11.368861] (-) TimerEvent: {}
+[11.469807] (-) TimerEvent: {}
+[11.570602] (-) TimerEvent: {}
+[11.671231] (-) TimerEvent: {}
+[11.771811] (-) TimerEvent: {}
+[11.872599] (-) TimerEvent: {}
+[11.973844] (-) TimerEvent: {}
+[12.074551] (-) TimerEvent: {}
+[12.175118] (-) TimerEvent: {}
+[12.275842] (-) TimerEvent: {}
+[12.376650] (-) TimerEvent: {}
+[12.477249] (-) TimerEvent: {}
+[12.577916] (-) TimerEvent: {}
+[12.679051] (-) TimerEvent: {}
+[12.779842] (-) TimerEvent: {}
+[12.880656] (-) TimerEvent: {}
+[12.981279] (-) TimerEvent: {}
+[13.081897] (-) TimerEvent: {}
+[13.182674] (-) TimerEvent: {}
+[13.283288] (-) TimerEvent: {}
+[13.383942] (-) TimerEvent: {}
+[13.484754] (-) TimerEvent: {}
+[13.585457] (-) TimerEvent: {}
+[13.686268] (-) TimerEvent: {}
+[13.786872] (-) TimerEvent: {}
+[13.887641] (-) TimerEvent: {}
+[13.988326] (-) TimerEvent: {}
+[14.088996] (-) TimerEvent: {}
+[14.189734] (-) TimerEvent: {}
+[14.290335] (-) TimerEvent: {}
+[14.390881] (-) TimerEvent: {}
+[14.491571] (-) TimerEvent: {}
+[14.592230] (-) TimerEvent: {}
+[14.692804] (-) TimerEvent: {}
+[14.793369] (-) TimerEvent: {}
+[14.893953] (-) TimerEvent: {}
+[14.994617] (-) TimerEvent: {}
+[15.095384] (-) TimerEvent: {}
+[15.195948] (-) TimerEvent: {}
+[15.296728] (-) TimerEvent: {}
+[15.397289] (-) TimerEvent: {}
+[15.497894] (-) TimerEvent: {}
+[15.598537] (-) TimerEvent: {}
+[15.699208] (-) TimerEvent: {}
+[15.799788] (-) TimerEvent: {}
+[15.900291] (-) TimerEvent: {}
+[16.000817] (-) TimerEvent: {}
+[16.101372] (-) TimerEvent: {}
+[16.201898] (-) TimerEvent: {}
+[16.302619] (-) TimerEvent: {}
+[16.403150] (-) TimerEvent: {}
+[16.503829] (-) TimerEvent: {}
+[16.604748] (-) TimerEvent: {}
+[16.705423] (-) TimerEvent: {}
+[16.805977] (-) TimerEvent: {}
+[16.906774] (-) TimerEvent: {}
+[17.007513] (-) TimerEvent: {}
+[17.108052] (-) TimerEvent: {}
+[17.208725] (-) TimerEvent: {}
+[17.233899] (a10_dual) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX executable a10_dual\x1b[0m\n'}
+[17.308993] (-) TimerEvent: {}
+[17.409569] (-) TimerEvent: {}
+[17.510288] (-) TimerEvent: {}
+[17.610896] (-) TimerEvent: {}
+[17.711694] (-) TimerEvent: {}
+[17.812572] (-) TimerEvent: {}
+[17.913609] (-) TimerEvent: {}
+[18.014460] (-) TimerEvent: {}
+[18.115145] (-) TimerEvent: {}
+[18.216600] (-) TimerEvent: {}
+[18.317931] (-) TimerEvent: {}
+[18.418682] (-) TimerEvent: {}
+[18.478468] (a10_dual) StdoutLine: {'line': b'[100%] Built target a10_dual\n'}
+[18.515198] (a10_dual) CommandEnded: {'returncode': 0}
+[18.518920] (-) TimerEvent: {}
+[18.619638] (-) TimerEvent: {}
+[18.690951] (a10_dual) JobProgress: {'identifier': 'a10_dual', 'progress': 'install'}
+[18.702297] (a10_dual) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/jaguar/桌面/A10_Dual_Linux/build/a10_dual'], 'cwd': '/home/jaguar/桌面/A10_Dual_Linux/build/a10_dual', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'zh_CN:en'), ('USER', 'jaguar'), ('LC_TIME', 'zh_CN.UTF-8'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/jaguar'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'zh_CN.UTF-8'), ('DBUS_STARTER_BUS_TYPE', 'session'), ('SYSTEMD_EXEC_PID', '1362'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus,guid=e3e3b9bb686d9139d27fb30566eb8c10'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('ROS_DISTRO', 'humble'), ('GTK_IM_MODULE', 'fcitx'), ('LOGNAME', 'jaguar'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'jaguar'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/JaGuar-VM:@/tmp/.ICE-unix/1362,unix/JaGuar-VM:/tmp/.ICE-unix/1362'), ('PAPERSIZE', 'a4'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'zh_CN.UTF-8'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/8babdbf1_168a_4734_a22f_714abd06f880'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'zh_CN.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'zh_CN.UTF-8'), ('XMODIFIERS', '@im=fcitx'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.AU6YT2'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.625'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'zh_CN.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'zh_CN.UTF-8'), ('LC_IDENTIFICATION', 'zh_CN.UTF-8'), ('QT_IM_MODULE', 'fcitx'), ('PWD', '/home/jaguar/桌面/A10_Dual_Linux/build/a10_dual'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('CLUTTER_IM_MODULE', 'fcitx'), ('DBUS_STARTER_ADDRESS', 'unix:path=/run/user/1000/bus,guid=e3e3b9bb686d9139d27fb30566eb8c10'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'zh_CN.UTF-8'), ('LC_PAPER', 'zh_CN.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[18.719859] (-) TimerEvent: {}
+[18.739589] (a10_dual) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[18.740174] (a10_dual) StdoutLine: {'line': b'-- Installing: /home/jaguar/\xe6\xa1\x8c\xe9\x9d\xa2/A10_Dual_Linux/install/a10_dual/lib/a10_dual/a10_dual\n'}
+[18.748663] (a10_dual) StdoutLine: {'line': b'-- Set runtime path of "/home/jaguar/\xe6\xa1\x8c\xe9\x9d\xa2/A10_Dual_Linux/install/a10_dual/lib/a10_dual/a10_dual" to ""\n'}
+[18.748961] (a10_dual) StdoutLine: {'line': b'-- Installing: /home/jaguar/\xe6\xa1\x8c\xe9\x9d\xa2/A10_Dual_Linux/install/a10_dual/share/a10_dual/xml\n'}
+[18.749603] (a10_dual) StdoutLine: {'line': b'-- Installing: /home/jaguar/\xe6\xa1\x8c\xe9\x9d\xa2/A10_Dual_Linux/install/a10_dual/share/a10_dual/xml/cs.xml\n'}
+[18.750386] (a10_dual) StdoutLine: {'line': b'-- Installing: /home/jaguar/\xe6\xa1\x8c\xe9\x9d\xa2/A10_Dual_Linux/install/a10_dual/share/a10_dual/xml/A10Dual2.xml\n'}
+[18.754414] (a10_dual) StdoutLine: {'line': b'-- Installing: /home/jaguar/\xe6\xa1\x8c\xe9\x9d\xa2/A10_Dual_Linux/install/a10_dual/share/a10_dual/xml/A10Dual.xml\n'}
+[18.756975] (a10_dual) StdoutLine: {'line': b'-- Installing: /home/jaguar/\xe6\xa1\x8c\xe9\x9d\xa2/A10_Dual_Linux/install/a10_dual/share/ament_index/resource_index/package_run_dependencies/a10_dual\n'}
+[18.758223] (a10_dual) StdoutLine: {'line': b'-- Installing: /home/jaguar/\xe6\xa1\x8c\xe9\x9d\xa2/A10_Dual_Linux/install/a10_dual/share/ament_index/resource_index/parent_prefix_path/a10_dual\n'}
+[18.759186] (a10_dual) StdoutLine: {'line': b'-- Installing: /home/jaguar/\xe6\xa1\x8c\xe9\x9d\xa2/A10_Dual_Linux/install/a10_dual/share/a10_dual/environment/ament_prefix_path.sh\n'}
+[18.760395] (a10_dual) StdoutLine: {'line': b'-- Installing: /home/jaguar/\xe6\xa1\x8c\xe9\x9d\xa2/A10_Dual_Linux/install/a10_dual/share/a10_dual/environment/ament_prefix_path.dsv\n'}
+[18.760956] (a10_dual) StdoutLine: {'line': b'-- Installing: /home/jaguar/\xe6\xa1\x8c\xe9\x9d\xa2/A10_Dual_Linux/install/a10_dual/share/a10_dual/environment/path.sh\n'}
+[18.761454] (a10_dual) StdoutLine: {'line': b'-- Installing: /home/jaguar/\xe6\xa1\x8c\xe9\x9d\xa2/A10_Dual_Linux/install/a10_dual/share/a10_dual/environment/path.dsv\n'}
+[18.762107] (a10_dual) StdoutLine: {'line': b'-- Installing: /home/jaguar/\xe6\xa1\x8c\xe9\x9d\xa2/A10_Dual_Linux/install/a10_dual/share/a10_dual/local_setup.bash\n'}
+[18.762803] (a10_dual) StdoutLine: {'line': b'-- Installing: /home/jaguar/\xe6\xa1\x8c\xe9\x9d\xa2/A10_Dual_Linux/install/a10_dual/share/a10_dual/local_setup.sh\n'}
+[18.763358] (a10_dual) StdoutLine: {'line': b'-- Installing: /home/jaguar/\xe6\xa1\x8c\xe9\x9d\xa2/A10_Dual_Linux/install/a10_dual/share/a10_dual/local_setup.zsh\n'}
+[18.763944] (a10_dual) StdoutLine: {'line': b'-- Installing: /home/jaguar/\xe6\xa1\x8c\xe9\x9d\xa2/A10_Dual_Linux/install/a10_dual/share/a10_dual/local_setup.dsv\n'}
+[18.764489] (a10_dual) StdoutLine: {'line': b'-- Installing: /home/jaguar/\xe6\xa1\x8c\xe9\x9d\xa2/A10_Dual_Linux/install/a10_dual/share/a10_dual/package.dsv\n'}
+[18.765167] (a10_dual) StdoutLine: {'line': b'-- Installing: /home/jaguar/\xe6\xa1\x8c\xe9\x9d\xa2/A10_Dual_Linux/install/a10_dual/share/ament_index/resource_index/packages/a10_dual\n'}
+[18.765802] (a10_dual) StdoutLine: {'line': b'-- Installing: /home/jaguar/\xe6\xa1\x8c\xe9\x9d\xa2/A10_Dual_Linux/install/a10_dual/share/a10_dual/cmake/a10_dualConfig.cmake\n'}
+[18.766310] (a10_dual) StdoutLine: {'line': b'-- Installing: /home/jaguar/\xe6\xa1\x8c\xe9\x9d\xa2/A10_Dual_Linux/install/a10_dual/share/a10_dual/cmake/a10_dualConfig-version.cmake\n'}
+[18.766796] (a10_dual) StdoutLine: {'line': b'-- Installing: /home/jaguar/\xe6\xa1\x8c\xe9\x9d\xa2/A10_Dual_Linux/install/a10_dual/share/a10_dual/package.xml\n'}
+[18.769865] (a10_dual) CommandEnded: {'returncode': 0}
+[18.820294] (-) TimerEvent: {}
+[18.920800] (-) TimerEvent: {}
+[18.950975] (a10_dual) JobEnded: {'identifier': 'a10_dual', 'rc': 0}
+[18.956275] (-) EventReactorShutdown: {}

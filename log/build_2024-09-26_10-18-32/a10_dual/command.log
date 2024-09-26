@@ -1,0 +1,6 @@
+Invoking command in '/home/jaguar/桌面/A10_Dual_Linux/build/a10_dual': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/jaguar/桌面/A10_Dual_Linux/src/a10_dual -DCMAKE_INSTALL_PREFIX=/home/jaguar/桌面/A10_Dual_Linux/install/a10_dual
+Invoked command in '/home/jaguar/桌面/A10_Dual_Linux/build/a10_dual' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/jaguar/桌面/A10_Dual_Linux/src/a10_dual -DCMAKE_INSTALL_PREFIX=/home/jaguar/桌面/A10_Dual_Linux/install/a10_dual
+Invoking command in '/home/jaguar/桌面/A10_Dual_Linux/build/a10_dual': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/jaguar/桌面/A10_Dual_Linux/build/a10_dual -- -j10 -l10
+Invoked command in '/home/jaguar/桌面/A10_Dual_Linux/build/a10_dual' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/jaguar/桌面/A10_Dual_Linux/build/a10_dual -- -j10 -l10
+Invoking command in '/home/jaguar/桌面/A10_Dual_Linux/build/a10_dual': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/jaguar/桌面/A10_Dual_Linux/build/a10_dual
+Invoked command in '/home/jaguar/桌面/A10_Dual_Linux/build/a10_dual' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/jaguar/桌面/A10_Dual_Linux/build/a10_dual

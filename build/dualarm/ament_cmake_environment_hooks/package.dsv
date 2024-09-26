@@ -1,0 +1,4 @@
+source;share/dualarm/local_setup.bash
+source;share/dualarm/local_setup.dsv
+source;share/dualarm/local_setup.sh
+source;share/dualarm/local_setup.zsh

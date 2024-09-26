@@ -1,0 +1,9 @@
+/home/jaguar/桌面/A10_Dual_Linux/build/dualarm/CMakeFiles/uninstall.dir
+/home/jaguar/桌面/A10_Dual_Linux/build/dualarm/CMakeFiles/dualarm_uninstall.dir
+/home/jaguar/桌面/A10_Dual_Linux/build/dualarm/CMakeFiles/test.dir
+/home/jaguar/桌面/A10_Dual_Linux/build/dualarm/CMakeFiles/edit_cache.dir
+/home/jaguar/桌面/A10_Dual_Linux/build/dualarm/CMakeFiles/rebuild_cache.dir
+/home/jaguar/桌面/A10_Dual_Linux/build/dualarm/CMakeFiles/list_install_components.dir
+/home/jaguar/桌面/A10_Dual_Linux/build/dualarm/CMakeFiles/install.dir
+/home/jaguar/桌面/A10_Dual_Linux/build/dualarm/CMakeFiles/install/local.dir
+/home/jaguar/桌面/A10_Dual_Linux/build/dualarm/CMakeFiles/install/strip.dir
